@@ -1,0 +1,116 @@
+body{
+    background-color: wheat;
+}
+input[type="submit"]{
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    background-color: blue;
+    margin-top:1.5rem;
+width: 25%;
+}
+input[type="submit"]:hover{
+    background-color: blueviolet;
+    border-radius: 10%;
+}
+
+.feedback{
+
+}
+.feedback button{
+    background-color: blueviolet;
+    padding: 0.25rem;
+
+}
+.feedback button a{
+    text-decoration: none;
+    color:black;
+}
+legend{
+    text-align: center;
+}
+Marquee{
+    background-color: transparent;
+    color:red;
+}
+@media(max-width:400px){
+
+    input[type="submit"]{
+margin-left:0;
+    overflow: hidden;
+        background-color: blue;
+    }
+}
+@media(max-width:914px){
+    body{
+        background-color:wheat;
+
+    }
+    .feedback{
+
+    }
+    input[type="submit"]{
+        margin-left:0;
+            overflow: hidden;
+                background-color: blue;
+            }
+            p{
+            color:black;
+            }
+            .juma{
+                background:transparent;
+            }
+            button{
+                padding:0.5rem;
+                background:transparent;
+
+            }
+            a{
+                padding:0.5rem;
+            }
+            a:hover{
+                background-color: aqua;
+
+            }
+            Marquee{
+                background-color: transparent;
+                color:red;
+            }
+}
+
+  @media(max-width:740px)
+  {
+    body{
+        background-color:wheat;
+
+    }
+    .feedback{
+
+    }
+    input[type="submit"]{
+        margin-left:0;
+            overflow: hidden;
+                background-color: blue;
+            }
+            p{
+            color:black;
+            }
+            .juma{
+                background:transparent;
+            }
+            button{
+                padding:0.5rem;
+                background:transparent;
+
+            }
+            a{
+                padding:0.5rem;
+            }
+            a:hover{
+                background-color: aqua;
+
+            }
+            Marquee{
+                background-color: transparent;
+                color:red;
+            }
+  }
